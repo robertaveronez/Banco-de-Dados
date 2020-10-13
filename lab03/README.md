@@ -2,7 +2,7 @@ Laboratório 3 [09/10]
 
 ## Tarefa 3 Livros e Avaliações
 
-> [Arquivo Orange]()
+[Arquivo Orange](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab03/notebook)
 
 A imagem do fluxograma mostra o caminho para achar quais os anos de publicações de livros que pessoas com 60 ou mais anos avalia com nota 10.
 
@@ -16,11 +16,11 @@ determinado livro com a nota 10.
 O próximo passo é delimitar a idade dos usuários para 60 ou mais anos e para gerar a distribuição definimos o ano do usuário como como numeric e o ano de publicação de um livro
 como categorical.
 
->![Fluxograma](images/fluxograma.PNG)
+![Fluxograma](images/fluxograma.PNG)
 
 As distribuições mostram que pessoas com 60 ou mais anos tendem a avaliar com nota 10 livros que foram publicados recentemente, ao invés de livros que foram publicados dos anos
 1993 para trás.
 
->![Idade](images/idade.PNG)
+![Idade](images/idade.PNG)
 
->![Ano de Publicação](images/anopublicacao.PNG)
+![Ano de Publicação](images/anopublicacao.PNG)
