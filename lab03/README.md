@@ -1,6 +1,6 @@
 Laboratório 3 [09/10]
 
-## Tarefa 3 Livros e Avaliações
+## Tarefa 3 Books Dataset
 
 [Arquivo Orange](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab03/notebook)
 
