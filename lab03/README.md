@@ -2,7 +2,7 @@ Laboratório 3 [09/10]
 
 ## Lab03 - Modelo Lógico de Tabelas com Orange/Kaggle
 
-[Arquivo Orange](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab03/notebook)
+[Arquivo Orange](https://github.com/robertaveronez/Banco-de-Dados/blob/master/lab03/orange/Books-Dataset.ows)
 
 A imagem do fluxograma mostra o caminho para achar quais os anos de publicações de livros que pessoas com 60 ou mais anos avalia com nota 10.
 
