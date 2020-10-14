@@ -1,6 +1,6 @@
 Laboratório 3 [09/10]
 
-## Tarefa 3 Books Dataset
+## Lab03 - Modelo Lógico de Tabelas com Orange/Kaggle
 
 [Arquivo Orange](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab03/notebook)
 
