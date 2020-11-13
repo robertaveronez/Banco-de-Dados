@@ -8,3 +8,5 @@ Roberta Rozendo Veronez [186671]
 >
 [Lab 04](https://github.com/robertaveronez/Banco-de-Dados/blob/master/lab04/notebook/nhanes-lab-02.ipynb)
 >
+[Lab 05](https://github.com/robertaveronez/Banco-de-Dados/blob/master/lab05/notebook/faers-lab-01.ipynb)
+>
