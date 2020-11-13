@@ -1,6 +1,6 @@
 Laboratório [16/10]
 
-# Laboratório 4 - SQL no NHANES
+# Tarefa de sentenças SQL para dados do Nutrition Examination Survey 
 
 [Notebook](https://github.com/robertaveronez/Banco-de-Dados/blob/master/lab04/notebook/nhanes-lab-02.ipynb)
 
