@@ -1,6 +1,6 @@
 Laboratório 3 [09/10]
 
-## Lab03 - Modelo Lógico de Tabelas com Orange/Kaggle
+## Tarefa sobre Análise de Dados usando o Orange
 
 [Arquivo Orange](https://github.com/robertaveronez/Banco-de-Dados/blob/master/lab03/orange/Books-Dataset.ows)
 
