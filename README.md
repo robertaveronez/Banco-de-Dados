@@ -10,3 +10,5 @@ Roberta Rozendo Veronez [186671]
 >
 [Lab 05](https://github.com/robertaveronez/Banco-de-Dados/blob/master/lab05/notebook/faers-lab-01.ipynb)
 >
+[Lab 06](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab06)
+>
