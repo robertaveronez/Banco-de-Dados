@@ -5,15 +5,21 @@
 Calcule o Pagerank do exemplo da Wikipedia em Cypher:
 
 ~~~cypher
-(escreva aqui a resolução em Cypher)
-~~~
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/santanche/lab2learn/master/network/pagerank/pagerank-wikipedia.csv' AS line
+MERGE (p1:Page {name:line.source})
+MERGE (p2:Page {name:line.target})
+CREATE (p1)-[:LINKS]->(p2)
 
-> Coloque aqui a imagem resultante conforme o exemplo (não obrigatório, mas sugerido - imagem produzida pelo CytoScape ou Gephi).
+CALL gds.graph.create(
+  'prGraph',
+  'Page',
+  'LINKS'
+);
 
-![PageRank](images/pagerank-cytoscape.png)
-
-~~~cypher
-(escreva aqui a resolução em Cypher)
+CALL gds.pageRank.stream('WikiGraph')
+YIELD nodeId, score
+MATCH (p:Page {name: gds.util.asNode(nodeId).name})
+SET p.pagerank = score
 ~~~
 
 ## Exercício 2
@@ -21,9 +27,18 @@ Calcule o Pagerank do exemplo da Wikipedia em Cypher:
 Departing from a Drug-Drug graph created in a previous lab, whose relationship determines drugs taken together, apply a community detection in it to see the results:
 
 ~~~cypher
-(escreva aqui a resolução em Cypher)
+CALL gds.graph.create(
+  'DrugGraph',
+  'Drug',
+  {
+    Relates: {
+      orientation: 'UNDIRECTED'
+    }
+  }
+)
+
+CALL gds.louvain.stream('DrugRelGraph')
+YIELD nodeId, communityId
+MATCH (d:Drug {name: gds.util.asNode(nodeId).name})
+SET d.community = communityId
 ~~~
-
-> Coloque aqui a imagem resultante conforme o exemplo (não obrigatório, mas sugerido - imagem produzida pelo CytoScape ou Gephi).
-
-![Comunidade](images/comunidade-cytoscape.png)
