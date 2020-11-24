@@ -12,3 +12,5 @@ Roberta Rozendo Veronez [186671]
 >
 [Lab 06](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab06)
 >
+[Lab 07](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab07)
+>
