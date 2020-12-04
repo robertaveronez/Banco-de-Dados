@@ -14,3 +14,4 @@ Roberta Rozendo Veronez [186671]
 >
 [Lab 07](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab07)
 >
+[Lab 08](https://github.com/robertaveronez/Banco-de-Dados/tree/master/lab08)
